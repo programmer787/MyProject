@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Przesyłanie plików</h1>
+  <h1>Przesyłanie plików na serwer</h1>
   <?php if(isset($_GET['upload']) && $_GET['upload'] == 'success'): ?>
     <div class="success">Plik został pomyślnie przesłany na serwer.</div>
   <?php endif; ?>
